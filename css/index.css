@@ -1,0 +1,9 @@
+.container{
+  display: -webkit-flex;
+  display: flex;
+  flex-flow: column;
+}
+.container div{
+  -webkit-flex:1;
+  flex:1;
+}
