@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport"content="width=divice-width,initial-scale=1">
+    <title>Flexbox</title>
+    <style type="text/css">
+       .container{
+         display: flex;
+         display：-webkit-flex;
+         -webkit-justify-content:flex-start;
+         justify-content:flex-start;
+       }
+       .container div:nth-of-type(1n+2) {
+         margin-left: 20px;
+       }
+
+       .container div{
+         width: 200px;
+         background-color: green;
+          padding: 10px;
+       }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div>A flex Item</div>
+      <div>A another Item</div>
+      <div>A third flex Item</div>
+    </div>
+  </body>
+</html>
