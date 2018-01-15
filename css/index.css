@@ -2,6 +2,8 @@
   display: -webkit-flex;
   display: flex;
   flex-flow: column;
+  justify-content: center;
+  align-items: center;
 }
 .container div{
   -webkit-flex:1;
